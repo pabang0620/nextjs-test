@@ -7,7 +7,9 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <>
-      <Link href="/About">about</Link>
+      <nav className="flex sm:justify-center">
+        <Link href="/about">about</Link>
+      </nav>
     </>
   );
   // <style jsx>{`
