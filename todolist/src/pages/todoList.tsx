@@ -3,7 +3,7 @@ import { useState, useEffect, useCallback } from "react";
 // import Todoboard from "./components/TodoItem";
 import TodoItem from "./components/TodoItem";
 
-export default function About() {
+export default function Todolist() {
   // const todolist: unknown[];
   const [todolist, setTodolist] = useState([]);
   const addItem = () => {
@@ -25,7 +25,7 @@ export default function About() {
 
   return (
     <>
-      <nav className="flex sm:justify-center">
+      <nav>
         <Link href="/">Home</Link>
       </nav>
       <input
